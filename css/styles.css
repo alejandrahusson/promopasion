@@ -1,0 +1,114 @@
+@import url("fonts.css");
+
+html {
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
+	-webkit-font-smoothing: antialiased;
+  	-ms-text-size-adjust: 100%;
+  	-webkit-text-size-adjust: 100%; 
+}
+body {
+	font-size: 15px;
+	color: #000;
+	text-align:center;
+	-webkit-overflow-scrolling: touch;
+    font-family: 'MarkPro-Bold';
+	-webkit-font-smoothing: antialiased; 
+	height:100%; 
+	margin:0; 
+	background:#fad92a url(../img/bg_body.jpg) no-repeat fixed top; 
+	background-size:cover;
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+	padding: 0;
+	margin: 0;
+}
+a {
+	color:#000;
+	text-decoration: underline;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+a:focus, a:active, a:hover {
+	outline: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+h2 {
+	color: #ec0928;
+	font-family: 'MarkPro-Heavy';
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#inicio {
+	background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(250,217,42,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(250,217,42,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(250,217,42,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#fad92a',GradientType=0 );
+    padding-top: 100px;
+    min-height: 85%;
+    margin-bottom: 3%;
+}
+#inicio h2 {
+	margin-bottom: 80px;
+}
+#inicio h3 {
+	color: #ec0928;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+#inicio p {
+	font-size: 30px;
+}
+
+#legales {
+	background: #fad92a;
+	border-top: 10px solid #ffc718;
+	padding: 8px 15px;
+	width: 100%;
+}
+
+#lista-paises {padding-bottom: 30px;}
+#lista-paises li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+#lista-paises li img {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+#lista-paises li a:hover img{  -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari */
+    transform: scale(1.1);
+}
+
+
+/* Responsive */
+@media (max-width:992px) {
+	#inicio {
+		padding-top: 80px;
+	}
+	#inicio h2 {
+		margin-bottom: 50px;
+	}
+	#inicio h3 {
+		font-size: 40px;
+	}
+
+}
+
+@media (max-width:768px) {
+	body {
+		background:#fad92a url(../img/xs_bg_body.jpg) no-repeat fixed top; 
+	background-size:cover;
+	}
+}
