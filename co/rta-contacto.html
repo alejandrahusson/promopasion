@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lays // Pasión Futbolera</title>
+	<meta name="description" content="Bases y Condiciones">
+	<meta name="keywords" content="Lays, Promo, Pasión, Futbolera, promoción, selecciona, promopasionfutbolera" />
+
+	<link rel="icon" href="../img/favicon.png">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../css/styles.css" rel="stylesheet" type="text/css" media="all" />
+
+	<!-- Google / Search Engine Tags -->
+	<meta itemprop="name" content="Lays // Pasión Futbolera">
+	<meta itemprop="description" content="Bases y Condiciones">
+	<meta itemprop="image" content="../og-image.jpg">
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="http://www.promopasionfutbolera.com">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Lays // Pasión Futbolera">
+	<meta property="og:description" content="Bases y Condiciones">
+	<meta property="og:image" content="../og-image.jpg">
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Lays // Pasión Futbolera">
+	<meta name="twitter:description" content="Bases y Condiciones">
+	<meta name="twitter:image" content="../og-image.jpg">
+</head>
+
+<body>
+    <div class="container" id="interna">
+    	<header id="header" class="col-12">
+			<div class="nav-container">
+				<div class="row">
+					<div class="col-md-1 col-sm-1 logo">	
+						<h1 class="m-0 position-absolute">
+							<a href="#">
+								<img class="img-fluid" src="../img/logo.png" alt="Margarita">
+							</a>
+						</h1>
+					</div>
+					<div class="col-md-11 col-sm-11">
+						<!-- nav -->
+			        	<nav role="navigation" class="navbar navbar-dark navbar-expand-md pl-0 pr-0">
+			                <button class="navbar-toggler pull-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			                    <span class="navbar-toggler-icon"></span>
+			                </button>
+
+			                <div id="navbarCollapse" class="collapse navbar-collapse">
+			                    <ul class="p-0 m-0 text-center w-100">
+			                        <li><a href="#">home</a></li>
+			                        <li><a href="#">¿cómo participar?</a></li>
+			                        <li><a href="#">preguntas frecuentes</a></li>
+			                        <li><a href="#">bases y condiciones</a></li>
+			                        <li><a href="#">contacto</a></li>
+			                    </ul>                              
+			                </div>
+			        	</nav>
+			        	<!-- /nav -->
+			        </div>
+				</div>
+		    </div>        
+		</header>
+
+		<div class="col-12 content">
+			<h2>contacto</h2>
+			<p class="font-24 mb-3">Por favor, contactanos a través<br>
+			de este formulario y te responderemos a la brevedad.</p>
+			<div class="col-md-10 offset-md-1 col-12 yellow-rounded-box position-relative">
+				<form id="contactform" action="rta-contacto.html" method="post">
+                    <div class="row">
+                        <div class="form-group col-12">
+                            <input class="form-control" type="text" id="nombre" name="nombre" placeholder="nombre y apellido" required>
+                        </div>
+                        <div class="form-group col-12">
+                            <input class="form-control" type="email" id="email" name="email" placeholder="email" required>
+                        </div>
+                        <div class="form-group col-12">
+                            <textarea class="form-control" rows="8" id="mensaje" name="mensaje" placeholder="mensaje" required></textarea> 
+                        </div>
+                        <div class="form-group col-12">
+                            <input type="submit" class="btn-enviar" name="submit" id="submit" value="">
+                        </div>
+                    </div>                 
+                </form>
+			</div>
+		</div>
+    </div>
+
+    <div class="container-fluid" id="legales">
+    </div>
+
+    <!--MODAL RESPUESTA-->
+    <div class="modal fade" id="modalrespuesta" tabindex="-2" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<a href="#" class="cerrar red" data-dismiss="modal" aria-label="cerrar" title="cerrar">
+                  cerrar
+                </a>
+				<p class="red font-24 mb-5">¡Gracias por contactarte con nosotros!</p>
+				<p>En breve estarás recibiendo una respuesta<br>al email que nos has proporcionado.</p>
+			</div>
+		</div>
+	</div><!--MODAL RESPUESTA-->
+
+
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+	    $(window).on('load',function(){
+	        $('#modalrespuesta').modal('show');
+	    });
+	</script>
+</body>
+
+</html>
