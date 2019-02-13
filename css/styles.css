@@ -101,6 +101,7 @@ h3 {
     position: fixed;
     bottom: 0;
     left: 0;
+    font-size: 8px;
 }
 
 #lista-paises {padding-bottom: 30px;}
@@ -203,6 +204,12 @@ h3 {
 #cuatro img.position-absolute {
 	right: 20px;
     top: -45px;
+}
+#seis img.position-absolute, 
+#siete img.position-absolute, 
+#ocho img.position-absolute {
+	right: 20px;
+	top: -10px;
 }
 #accordion .btn {
 	padding: 0;
@@ -369,6 +376,16 @@ h3 {
 	}
 	.modal-content {
 		padding: 55px 30px 50px 30px;
+	}
+	.yellow-rounded-box {
+		padding: 25px 10px;
+	}
+	#uno img.position-absolute, 
+	#cuatro img.position-absolute, 
+	#seis img.position-absolute, 
+	#siete img.position-absolute, 
+	#ocho img.position-absolute {
+		right: 0px;
 	}
 }
 
