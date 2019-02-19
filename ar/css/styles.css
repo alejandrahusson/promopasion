@@ -400,6 +400,9 @@ h3 {
 	.xs-pt-25 {
 		padding-top: 25px!important;
 	}
+	.form-check-input {
+		margin-left: 0!important;
+	}
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
