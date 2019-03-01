@@ -66,6 +66,9 @@ h3 {
 .red {
 	color: #ec0928!important;
 }
+.white {
+	color: #fff!important;
+}
 .text-underline {
 	text-decoration: underline!important;
 }
@@ -172,6 +175,16 @@ h3 {
 }
 .content a:hover {
 	text-decoration: underline;
+}
+.red-rounded-box {
+	border-radius: 30px;
+	background: #ec0928;
+	border: 10px solid #d0112b;
+	padding: 25px 20px;
+	margin-bottom: 20px;
+}
+.red-rounded-box p {
+	line-height: 120%;
 }
 .yellow-rounded-box {
 	border-radius: 50px;
