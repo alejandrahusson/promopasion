@@ -249,6 +249,25 @@ h3 {
 	content:"\f0d7";
 }
 #accordion .texto p {padding-top: 15px;}
+
+.tabs-menu {
+	background: url('../img/solapas.png') left bottom no-repeat;
+	height: 76px;
+	background-size: 100% 100%;
+	position: relative;
+	top: 42px;
+	z-index: 9;
+}
+.tabs-menu li {
+	width: 33%;
+	padding-top: 10px;
+}
+.tabs-menu li a:hover, 
+.tabs-menu li a.active {
+	color: #ec0928;
+	text-decoration: none;
+}
+.byc {padding-top: 35px!important;}
 .byc p {
 	margin-bottom: 15px;
 }
